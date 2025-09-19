@@ -5,9 +5,9 @@
     const app = express();
     app.use(express.urlencoded({ extended: true }));
 
-    const twilioAccountSid = process.env.TWILIO_ACCOUNT_SID; 
-    const twilioAuthToken = process.env.TWILIO_AUTH_TOKEN;
-    const geminiAPIKey = process.env.GEMINI_API_KEY; 
+    const twilioAccountSid = ACa2f6f16a4fc46da73c04cfb081ae4ef8; 
+    const twilioAuthToken = babeb96f04170a82362e78903c3923d5;
+    const geminiAPIKey = AIzaSyCOAj-NRpl0PtRlo869u19gQkKO3cb_XNs; 
 
     async function callGemini(prompt) {
         // Gemini API call logic here...
@@ -28,3 +28,4 @@
       console.log(`Server is running on port ${port}`);
     });
     
+
