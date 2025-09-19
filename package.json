@@ -1,0 +1,14 @@
+    {
+        "name": "sunao-ai-agent",
+        "version": "1.0.0",
+        "description": "AI Calling Agent for Krishi Rakshak",
+        "main": "server.js",
+        "scripts": {
+            "start": "node server.js"
+        },
+        "dependencies": {
+            "express": "^4.18.2",
+            "twilio": "^3.84.1",
+            "dotenv": "^16.0.3"
+        }
+    }
